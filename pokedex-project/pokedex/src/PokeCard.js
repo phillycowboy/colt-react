@@ -12,6 +12,7 @@ class PokeCard extends Component{
                 <img src={imgSrc} alt={this.props.name}/>
                 <div>Type: {this.props.type}</div>
                 <div>Exp: {this.props.exp}</div>
+                {/* is this working???????? */}
             </div>
         )
     }
