@@ -5,9 +5,12 @@ class Game extends Component{
     constructor(props){
         super(props)
         this.state = {
-            score: 0, 
+            score: 99, 
             gameOver: false
         }
+        // initialize state in the constructor
+        
+
     }
     render(){
         return(
